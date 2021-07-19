@@ -9,24 +9,76 @@
 
 
 <body class="p-3 mb-2 bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(35, 195, 243);">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
     <div class="jumbotron" style=background-color:#ceca07>
         <h1 class="display-3">
-            <p class="font-weight-bold">APE</p>
+            <p class="font-weight-bold">Crypto ZOO</p>
         </h1>
-        <img src="assets/images/ape-01.jpg" class="img-fluid" alt="Responsive image">
+        <div class="row">
+            <div class="card" style="width: 18rem; background-color: rgba(11, 115, 146, 0.726);">
+                <img class="card-img-top" src="assets/images/ape-02.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Ape</h5>
+                    <p class="card-text">A crypto Ape is a trader who buys a new or popular coin quickly. Used in a sentence: "Don't ape into shitcoins" </p>
+                    <a href="#" class="btn btn-primary">Ape Button</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; background-color: rgba(2, 247, 96, 0.726);">
+                <img class="card-img-top" src="assets/images/cryptoWhale-01.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Whale</h5>
+                    <p class="card-text">A whale is someone who owns a lot of cryptocurrency. Whales hold enough cryptocurrency that they have the potential to manipulate the currency valuations.</p>
+                    <a href="#" class="btn btn-primary">Whale Button</a>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="assets/images/ape-01.jpg" class="rounded-circle img-fluid" alt="Responsive image" ;> -->
         <p class="lead"></p>
         <hr class="my-2">
         <p class="lead">
             <div id="buttons">
-                <button data-person="yoda" type="button" class="btn btn-danger btn-lg btn-block">FORCE</button>
-                <button data-person="Harambe" type="button" class="btn btn-primary btn-lg btn-dark btn-block">Ape Button</a>
+                <button data-person="skywalker" type="button" class="btn btn-danger btn-lg btn-block">FORCE</button>
+                <button data-person="back to the future" type="button" class="btn btn-primary btn-lg btn-dark btn-block">Time Travel</a>
             </div>
         </p>
         <div id="gifs-appear-here"></div>
     </div>
 
-    </div>
     <div class="p-3 mb-2 bg-primary text-white">
         <h1>cLifFs</h1>
     </div>
